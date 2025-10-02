@@ -1,58 +1,63 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Para mi amor ❤️</title>
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(to bottom, #ffe6f0, #ffd9b3);
-      font-family: 'Comic Sans MS', cursive, sans-serif;
-      overflow: hidden;
-    }
+<meta charset="UTF-8">
+<title>Para mi amor ❤️</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffe6f0, #ffd9b3);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    overflow: hidden;
+  }
 
-    h1 {
-      color: #ff3366;
-      font-size: 3em;
-      text-align: center;
-      animation: pulse 1.5s infinite;
-      z-index: 10;
-      position: relative;
-    }
+  .message {
+    color: #ff3366;
+    font-size: 2.5em;
+    text-align: center;
+    animation: pulse 1.5s infinite;
+    z-index: 10;
+    position: relative;
+    max-width: 90%;
+    line-height: 1.4;
+  }
 
-    @keyframes pulse {
-      0% {transform: scale(1);}
-      50% {transform: scale(1.2);}
-      100% {transform: scale(1);}
-    }
+  @keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
 
-    /* Corazones y flores flotando */
-    .float {
-      position: absolute;
-      width: 50px;
-      animation: floatAnim linear infinite;
-    }
+  .float {
+    position: absolute;
+    width: 50px;
+    animation: floatAnim linear infinite;
+  }
 
-    @keyframes floatAnim {
-      0% {transform: translateY(100vh) rotate(0deg);}
-      100% {transform: translateY(-50px) rotate(360deg);}
-    }
-  </style>
+  @keyframes floatAnim {
+    0% {transform: translateY(100vh) rotate(0deg);}
+    100% {transform: translateY(-50px) rotate(360deg);}
+  }
+</style>
 </head>
 <body>
 
-  <h1>Eres la chica más bonita del mundo ❤️</h1>
+<div class="message">
+  Amor, te amo ❤️<br>
+  Eres la mejor del mundo 🌸<br>
+  Te deseo siempre lo mejor y mucha felicidad 💖
+</div>
 
-  <!-- Flores y corazones -->
-  <img class="float" src="https://i.postimg.cc/5tQGb4Jf/flower1.png" style="left: 10%; animation-duration: 10s;">
-  <img class="float" src="https://i.postimg.cc/BZgKb3Pn/heart1.png" style="left: 30%; animation-duration: 12s;">
-  <img class="float" src="https://i.postimg.cc/5tQGb4Jf/flower1.png" style="left: 55%; animation-duration: 8s;">
-  <img class="float" src="https://i.postimg.cc/BZgKb3Pn/heart1.png" style="left: 75%; animation-duration: 14s;">
-  <img class="float" src="https://i.postimg.cc/5tQGb4Jf/flower1.png" style="left: 90%; animation-duration: 11s;">
+<!-- Flores y corazones animados -->
+<img class="float" src="https://raw.githubusercontent.com/openai-assets/public/main/flower1.png" style="left: 10%; animation-duration: 10s;">
+<img class="float" src="https://raw.githubusercontent.com/openai-assets/public/main/heart1.png" style="left: 30%; animation-duration: 12s;">
+<img class="float" src="https://raw.githubusercontent.com/openai-assets/public/main/flower1.png" style="left: 55%; animation-duration: 8s;">
+<img class="float" src="https://raw.githubusercontent.com/openai-assets/public/main/heart1.png" style="left: 75%; animation-duration: 14s;">
+<img class="float" src="https://raw.githubusercontent.com/openai-assets/public/main/flower1.png" style="left: 90%; animation-duration: 11s;">
 
 </body>
 </html>
